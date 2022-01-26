@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# React tutorial
+
+Tutorial was completed following this Net Ninja [YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d) playlist.
+
+
+I need to look into:
+
+- Better 404 handling if a blog post isnt found. Using React Router 5 in the videos and I'm using 6
+- Editing a blog post
+- Testing (Jest)
+- Exporting project and deploy
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
