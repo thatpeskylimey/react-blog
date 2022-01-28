@@ -2,6 +2,15 @@
 
 Tutorial was completed following this Net Ninja [YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d) playlist.
 
+To run it, you'll need to
+
+### `npm run start`
+
+and start the json server
+
+### `npx json-server --watch data/db.json --port 8000`
+
+---
 
 I need to look into:
 
