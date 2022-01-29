@@ -6,11 +6,9 @@ const ACTIONS = {
 	DECREMENT : 'decrement',
 	RESET : 'reset'
 }
-// When we call dispatch, it gets set to action and sets our count to + 1
+// When we call dispatch, it gets set to an action and sets our count to + 1
 function reducer( state, action ) {
-	console.log( state.count );
-	console.log( action );
-
+	
 	switch ( action.type ) {
 		case ACTIONS.INCREMENT:
 			return { count: state.count + 1 }
