@@ -8,6 +8,7 @@ const Navbar = () => {
 			<div className="links">
 				<Link to="/">Home</Link>
 				<Link to="/create">New Blog</Link>
+				<Link to="/counter">Counter</Link>
 			</div>
       
 			{/* How to add style tags to elements */}

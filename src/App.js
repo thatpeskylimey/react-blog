@@ -4,6 +4,7 @@ import Home from './Home';
 import Create from "./Create";
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
+import Counter from "./Counter";
 
 function App() {
                    
@@ -20,6 +21,7 @@ function App() {
 
 						<Route path="/" element={ <Home /> } />
 						<Route path="/create" element={ <Create /> } />
+						<Route path="/counter" element={ <Counter /> } />
 						{/* A changeable part of a route is called a "Route Parameter" */}
 						<Route path="/blogs/:id" element={ <BlogDetails /> } />
 					</Routes>
